@@ -1,6 +1,6 @@
 #lang info
 (define collection "syntax-format")
-(define deps '("base"))
+(define deps '("base" "pretty-expressive"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/syntax-format.scrbl" ())))
 (define pkg-desc "Description Here")
